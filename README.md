@@ -1,15 +1,15 @@
-#Hrra
+# Hrra
 A code on the opencv python to find a claw in a video and detect the numeric sequence on the bar
 
-####Prerequisits
+#### Prerequisits
 * Python 3+
 * OpenCv 3.4+
 * Install the packages on requirements.txt
 
-####Installing
+#### Installing
 * Installing OpenCv: https://www.pyimagesearch.com/2018/05/28/ubuntu-18-04-how-to-install-opencv/
 
-####Running
+#### Running
 Run the code detector.py using a terminal to find the claw in a video: 
  ````
   python detector.py --video media/garra.mp4
@@ -19,7 +19,7 @@ Run the code num.py using a terminal to read the numbers on the bar in a image:
   python num.py --image media/teste.jpg
 ````
 
-####Build With
+#### Build With
 * Python
 * OpenCv
 
