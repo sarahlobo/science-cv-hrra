@@ -1,5 +1,5 @@
 # USAGE
-# python detector.py --video videos/example_01.mp4
+# python detector.py --video media/garra.mp4
 
 # import the necessary packages
 from imutils.video import VideoStream
