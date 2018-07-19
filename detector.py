@@ -1,11 +1,9 @@
 # USAGE
-# python motion_detector.py
-# python motion_detector.py --video videos/example_01.mp4
+# python detector.py --video videos/example_01.mp4
 
 # import the necessary packages
 from imutils.video import VideoStream
 import argparse
-import datetime
 import imutils
 import time
 import cv2
@@ -28,6 +26,7 @@ else:
 
 # initialize the first frame in the video stream
 firstFrame = None
+
 
 # loop over the frames of the video
 while True:
@@ -84,7 +83,6 @@ while True:
                 cv2.imwrite("thebest.jpg", cropped)
             if cropped.size>0:
                 cv2.imshow("garra", cropped)
-
 
     # show the frame and record if the user presses a key
     cv2.imshow("Security Feed", frame)
