@@ -13,7 +13,7 @@ kiwisolver==1.0.1
 mahotas==1.4.4
 matplotlib==2.2.2
 networkx==2.1
-numpy==1.14.5
+numpy==1.22.0
 Pillow==5.2.0
 pyimagesearch==0.4
 pyparsing==2.2.0
